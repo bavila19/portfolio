@@ -1,0 +1,14 @@
+[
+    {
+      "name": "project1",
+      "live": "https://bavila19.github.io/Trivia_Game/",
+      "git": "https://github.com/bavila19/Trivia_Game",
+      "image": "https://i.imgur.com/9cCgKow.png"
+    },
+    {
+      "name": "project2",
+      "live": "https://celadon-cocada-1724db.netlify.app ",
+      "git": "https://github.com/bavila19/project-two",
+      "image": "https://i.imgur.com/ptKqr3b.png"
+    }
+  ]
