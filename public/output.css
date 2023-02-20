@@ -577,6 +577,14 @@ video {
   right: 0px;
 }
 
+.right-7{
+  right: 1.75rem;
+}
+
+.top-\[60\%\]{
+  top: 60%;
+}
+
 .z-40{
   z-index: 40;
 }
@@ -636,6 +644,10 @@ video {
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .rounded-full{
@@ -736,4 +748,10 @@ body,
 .hover\:text-yellow:hover{
   --tw-text-opacity: 1;
   color: rgb(253 204 73 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1060px){
+  .md\:h-full{
+    height: 100%;
+  }
 }
