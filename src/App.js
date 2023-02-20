@@ -1,5 +1,6 @@
 import NavBar from "./scenes/NavBar";
 import DotGroup from "./scenes/DotGroup";
+import Landing from "./scenes/Landing"
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 
