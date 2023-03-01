@@ -1,6 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-import trending from "../assets/trending.png"
+ import trending from "../assets/trending.png"
 import rootedEarth from "../assets/rootedEarth.png"
 import feeling from "../assets/feeling.png"
 // import projectTitle from `../assets/${projectTitle}.png`
@@ -21,6 +21,19 @@ const projectVariant = {
 
 const Project =({title, subtitle})=>{
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition  duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+
+    return(
+        <motion.div variants={projectVariant} className="relative">
+            <div className={overlayStyles}>
+                <p className="text-2xl font-playfair">{title}</p>
+                <p className="mt-7">{subtitle}</p>
+            </div>
+            <img src={feeling} alt= "ahh" />
+        </motion.div>
+    )
+}
+const Project2 =({title, subtitle})=>{
+    const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition  duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
     // const projectTitle = title.pslit(" ").join("-").toLowerCase();
 
     return(
@@ -29,14 +42,29 @@ const Project =({title, subtitle})=>{
                 <p className="text-2xl font-playfair">{title}</p>
                 <p>{subtitle}</p>
             </div>
-            {/* <img src={projectTitle} alt= "ahh"/> */}
+            <img src={rootedEarth} alt= "ahh" />
+        </motion.div>
+    )
+}
+const Project3 =({title, subtitle})=>{
+    const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition  duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+    // const projectTitle = title.pslit(" ").join("-").toLowerCase();
+
+    return(
+        <motion.div variants={projectVariant} className="relative">
+            <div className={overlayStyles}>
+                <p className="text-2xl font-playfair">{title}</p>
+                <p>{subtitle}</p>
+            </div>
+            <img src={trending} alt= "ahh" />
         </motion.div>
     )
 }
 
+
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="projects" className="pt-40 pb-48">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/4 mx-auto text-center"
@@ -57,7 +85,7 @@ const Projects = () => {
             <LineGradient width="w=1/3" />
           </div>
         </div>
-        <p className="mt-10 mb-10">
+        <p className="mt-5 mb-20">
           These software engineering projects were completed within a one-week
           sprint and served as valuable opportunities for professional growth.
           By collaborating with other software engineers, I were able to develop
@@ -78,15 +106,21 @@ const Projects = () => {
           variants={container}
         >
             {/* ROW ONE */}
-            <div className="flex justify-center text-center items-center p-10 bg-red first-letter max-w-[400px] text-2xl font-playfair font-semibold">
-                BEUT
+            <div className="flex justify-center text-center items-center p-10 bg-red first-letter max-w-[550px] text-2xl font-playfair font-semibold">
+            BEAUTIFUL USER INTERFACES
             </div>
-            <Project title=" Rooted Earth" 
-            subtitle={"hello"}
-/>
-            <Project title="project 1" subtitle={"hello"}><img src={rootedEarth} alt="work"/></Project>
-            <Project title="project 1" subtitle={"hello"}/>
-
+            <Project title="Are You Feeling Down?" 
+            subtitle={"This websites purpose is lift up peoples spirits with compliments and puppy photos. We understand what it's like to have rough days so this website is for anyone who is feeling down"}/>      
+            <Project2 title=" Rooted Earth" 
+            subtitle={"This app helps users understand and track the growth of their plants by allowing them to upload pictures and descriptions, as well as setting watering schedules and to-do tasks. "}/>      
+            <Project3 title=" #Trending" 
+            subtitle={"#Trending is an app for people of all ages to keep up with todays generation. #Trending allows users to post and view a trend from 3 different categories which include 'Dank Slang', 'That's So Fetch', & 'Book-Toc'"}/>
+            <div
+            className="flex justify-center text-center items-center p-10 bg-blue
+              max-w-[550px] max-h-[400px] text-2xl font-playfair font-semibold"
+          >
+            SMOOTH USER EXPERIENCE
+          </div>
         </motion.div>
       </div>
     </section>
