@@ -30,7 +30,6 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
         onClick={() => setSelectedPage("projects")}
       />
 
-
       <AnchorLink
         href="#contact"
         className={`${

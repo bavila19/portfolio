@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 import trending from "../assets/trending.png";
 import rootedEarth from "../assets/rootedEarth.png";
 import feeling from "../assets/feeling.png";
-// import projectTitle from `../assets/${projectTitle}.png`
-// let projectTitle = await import ("../assets/")
 
 const container = {
   hidden: {},
@@ -33,7 +31,6 @@ const Project = ({ title, subtitle }) => {
 };
 const Project2 = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition  duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  // const projectTitle = title.pslit(" ").join("-").toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
@@ -47,7 +44,6 @@ const Project2 = ({ title, subtitle }) => {
 };
 const Project3 = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition  duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  // const projectTitle = title.pslit(" ").join("-").toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
@@ -63,7 +59,6 @@ const Project3 = ({ title, subtitle }) => {
 const Projects = () => {
   return (
     <section id="projects" className="pt-40 pb-48">
-      {/* HEADINGS */}
       <motion.div
         className="md:w-2/4 mx-auto text-center"
         initial="hidden"
@@ -94,7 +89,6 @@ const Projects = () => {
           skills and enabled you to work more efficiently.
         </p>
       </motion.div>
-      {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
           className="sm:grid sm:grid-cols-3"
@@ -103,7 +97,6 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.5 }}
           variants={container}
         >
-          {/* ROW ONE */}
           <div className="flex justify-center text-center items-center p-10 bg-red first-letter max-w-[550px] text-2xl font-playfair font-semibold">
             BEAUTIFUL USER INTERFACES
           </div>
