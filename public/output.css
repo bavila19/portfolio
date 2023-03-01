@@ -790,6 +790,10 @@ video {
   height: auto;
 }
 
+.h-64{
+  height: 16rem;
+}
+
 .max-h-\[400px\]{
   max-height: 400px;
 }
@@ -856,6 +860,10 @@ video {
 
 .w-1\/2{
   width: 50%;
+}
+
+.w-10\/12{
+  width: 83.333333%;
 }
 
 .max-w-\[400px\]{
@@ -1132,6 +1140,11 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-48{
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 .pr-0{
