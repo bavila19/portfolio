@@ -15,7 +15,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500 w-[45px]"
-        href="https://www.linkedin.com/in/brenda-avila-escamilla/"
+        href="https://github.com/bavila19"
         target="_blank"
         rel="noreferrer"
       >
@@ -23,7 +23,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500 w-[45px]"
-        href="https://www.linkedin.com/in/brenda-avila-escamilla/"
+        href="file:///Users/brendaavila/Downloads/Brenda%20Avila%20-%20Italian%20Greyhound%20-%20SEI%20Resume%20Template.pdf"
         target="_blank"
         rel="noreferrer"
       >
