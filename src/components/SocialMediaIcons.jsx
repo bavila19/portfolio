@@ -23,7 +23,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500 w-[45px]"
-        href="file:///Users/brendaavila/Downloads/Brenda%20Avila%20-%20Italian%20Greyhound%20-%20SEI%20Resume%20Template.pdf"
+        href="https://docs.google.com/document/d/10Ubaq7ymVVBcmHPaUXubjpwJb3_hh8Xm3YRkfpNaXTM/edit?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
