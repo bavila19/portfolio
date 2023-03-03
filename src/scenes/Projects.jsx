@@ -22,10 +22,10 @@ const Project = ({ title, subtitle }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">{subtitle}</p>
+        <a href="https://celadon-cocada-1724db.netlify.app"className="text-2xl font-playfair">{title}</a>
+        <a href="https://celadon-cocada-1724db.netlify.app" className="mt-7">{subtitle}</a>
       </div>
-      <img src={feeling} alt="ahh" />
+      <img src={feeling} alt="ahh"/>
     </motion.div>
   );
 };
@@ -35,8 +35,8 @@ const Project2 = ({ title, subtitle }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p>{subtitle}</p>
+        <a href="https://rootedearth.herokuapp.com"className="text-2xl font-playfair">{title}</a>
+        <a href="https://rootedearth.herokuapp.com" className="mt-7">{subtitle}</a>
       </div>
       <img src={rootedEarth} alt="ahh" />
     </motion.div>
@@ -48,8 +48,8 @@ const Project3 = ({ title, subtitle }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p>{subtitle}</p>
+      <a href="https://cool-licorice-e1c33b.netlify.app/"className="text-2xl font-playfair">{title}</a>
+      <a href="https://cool-licorice-e1c33b.netlify.app/" className="mt-7">{subtitle}</a>
       </div>
       <img src={trending} alt="ahh" />
     </motion.div>
@@ -103,19 +103,20 @@ const Projects = () => {
           <Project
             title="Are You Feeling Down?"
             subtitle={
-              "This websites purpose is lift up peoples spirits with compliments and puppy photos. We understand what it's like to have rough days so this website is for anyone who is feeling down"
+              "This websites purpose is lift up peoples spirits with compliments and puppy photos."
             }
           />
           <Project2
             title=" Rooted Earth"
             subtitle={
-              "This app helps users understand and track the growth of their plants by allowing them to upload pictures and descriptions, as well as setting watering schedules and to-do tasks. "
+              "This app helps users understand and track the growth of their plants by allowing them to upload pictures and descriptions. "
+              
             }
           />
           <Project3
             title=" #Trending"
             subtitle={
-              "#Trending is an app for people of all ages to keep up with todays generation. #Trending allows users to post and view a trend from 3 different categories which include 'Dank Slang', 'That's So Fetch', & 'Book-Toc'"
+              "#Trending is an app for people of all ages to keep up with todays generation."
             }
           />
           <div
