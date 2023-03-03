@@ -22,8 +22,16 @@ const Project = ({ title, subtitle }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <a href="https://celadon-cocada-1724db.netlify.app"className="text-2xl font-playfair">{title}</a>
-        <a href="https://celadon-cocada-1724db.netlify.app" className="mt-7">{subtitle}</a>
+        <a 
+        href="https://celadon-cocada-1724db.netlify.app"className="text-2xl font-playfair"
+        target="_blank"
+        rel="noreferrer"
+        >{title}</a>
+        <a 
+        href="https://celadon-cocada-1724db.netlify.app" className="mt-7"
+        target="_blank"
+        rel="noreferrer"
+        >{subtitle}</a>
       </div>
       <img src={feeling} alt="ahh"/>
     </motion.div>
@@ -35,8 +43,12 @@ const Project2 = ({ title, subtitle }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <a href="https://rootedearth.herokuapp.com"className="text-2xl font-playfair">{title}</a>
-        <a href="https://rootedearth.herokuapp.com" className="mt-7">{subtitle}</a>
+        <a href="https://rootedearth.herokuapp.com"className="text-2xl font-playfair"
+        target="_blank"
+        rel="noreferrer">{title}</a>
+        <a href="https://rootedearth.herokuapp.com" className="mt-7"
+        target="_blank"
+        rel="noreferrer">{subtitle}</a>
       </div>
       <img src={rootedEarth} alt="ahh" />
     </motion.div>
@@ -48,8 +60,12 @@ const Project3 = ({ title, subtitle }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-      <a href="https://cool-licorice-e1c33b.netlify.app/"className="text-2xl font-playfair">{title}</a>
-      <a href="https://cool-licorice-e1c33b.netlify.app/" className="mt-7">{subtitle}</a>
+      <a href="https://cool-licorice-e1c33b.netlify.app/"className="text-2xl font-playfair"
+      target="_blank"
+      rel="noreferrer">{title}</a>
+      <a href="https://cool-licorice-e1c33b.netlify.app/" className="mt-7"
+      target="_blank"
+      rel="noreferrer">{subtitle}</a>
       </div>
       <img src={trending} alt="ahh" />
     </motion.div>
